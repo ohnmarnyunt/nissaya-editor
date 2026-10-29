@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="my">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nissaya Editor</title>
+<meta name="description" content="Nissaya Editor: read photos and PDFs of Pāli–Myanmar nissaya books, check them, and save them as Word, PDF or text.">
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="brand" href="./"><img src="icon.png" alt=""><span>Nissaya Editor</span></a>
+    <div class="lang" role="group" aria-label="Language / ဘာသာစကား">
+      <button type="button" data-lang="my" aria-pressed="true">မြန်မာ</button>
+      <button type="button" data-lang="en" aria-pressed="false">English</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ================= Myanmar ================= -->
+  <section lang="my">
+    <h1>နိဿယ တည်းဖြတ်ရေး</h1>
+    <p class="lead">ပါဠိ-မြန်မာ နိဿယ စာအုပ်များ၏ ဓာတ်ပုံ သို့မဟုတ် PDF ကို ဖတ်ပြီး ပါဠိ-မြန်မာ အတွဲများ ခွဲပေးကာ စစ်ဆေးပြီးနောက် Word, PDF, Text ဖိုင်အဖြစ် သိမ်းနိုင်သော ကွန်ပျူတာ app ဖြစ်ပါသည်။</p>
+
+    <h2>ဒေါင်းလုဒ်</h2>
+    <div class="downloads">
+      <div class="card">
+        <h3>🪟 Windows</h3>
+        <p class="muted">Windows 10 / 11 (64-bit)<br>ဖိုင် - <code>Nissaya Editor Setup.exe</code></p>
+        <a class="btn" href="https://github.com/ohnmarnyunt/nissaya-editor/releases/latest">⬇ Windows အတွက် ဒေါင်းရန်</a>
+      </div>
+      <div class="card">
+        <h3>🍎 Mac (Apple chip – M1, M2, M3, M4)</h3>
+        <p class="muted">ဖိုင် - <code>Nissaya Editor (mac-apple).dmg</code></p>
+        <a class="btn" href="https://github.com/ohnmarnyunt/nissaya-editor/releases/latest">⬇ Mac အတွက် ဒေါင်းရန်</a>
+      </div>
+    </div>
+    <p class="muted">ခလုတ်ကို နှိပ်ပါက နောက်ဆုံး version စာမျက်နှာ ပွင့်လာပါမည်။ <b>Assets</b> အောက်ရှိ မိမိ ကွန်ပျူတာနှင့် ကိုက်ညီသော ဖိုင်ကို နှိပ်ပါ။</p>
+
+    <h2>Install လုပ်နည်း</h2>
+    <h3>Windows</h3>
+    <ol>
+      <li><code>Nissaya Editor Setup.exe</code> ကို နှစ်ချက်နှိပ်ပါ။</li>
+      <li>“Windows protected your PC” ပေါ်လာပါက <b>More info</b> → <b>Run anyway</b> ကို နှိပ်ပါ။</li>
+      <li><b>Next</b> → <b>Install</b> → <b>Finish</b> ကို နှိပ်ပါ။ Desktop ပေါ်တွင် Nissaya Editor ပေါ်လာပါမည်။</li>
+    </ol>
+    <h3>Mac</h3>
+    <ol>
+      <li><code>.dmg</code> ဖိုင်ကို ဖွင့်ပြီး <b>Nissaya Editor</b> ကို <b>Applications</b> ထဲသို့ ဆွဲထည့်ပါ။</li>
+      <li>Applications ထဲမှ Nissaya Editor ကို ဖွင့်ပါ။ “cannot be opened / could not verify” ဟု ပေါ်လာပါက <b>Done</b> ကို နှိပ်ပါ။</li>
+      <li><b>System Settings</b> → <b>Privacy &amp; Security</b> ကို ဖွင့်ပြီး အောက်သို့ ဆင်းပါ။ “Nissaya Editor was blocked” ဘေးရှိ <b>Open Anyway</b> ကို နှိပ်ပြီး Mac password ရိုက်ထည့်ပါ။</li>
+      <li>Keychain password မေးသော box ပေါ်လာပါက Mac password ရိုက်ပြီး <b>Always Allow</b> ကို နှိပ်ပါ။</li>
+    </ol>
+
+    <h2>ပထမဆုံး အသုံးပြုခြင်း</h2>
+    <ol>
+      <li>App ကို ဖွင့်ပြီး Home စာမျက်နှာရှိ <b>Google ဖြင့် ဝင်ရန်</b> ကို နှိပ်ပါ။ Browser တွင် မိမိ Google account ကို ရွေးပြီး <b>Allow</b> ကို နှိပ်ပါ။ (ကွန်ပျူတာ တစ်လုံးလျှင် တစ်ကြိမ်သာ)</li>
+      <li><b>စာအုပ်သစ်</b> ဖန်တီးပြီး ဓာတ်ပုံ သို့မဟုတ် PDF ကို တင်ပါ။ PDF ဆိုလျှင် တစ်ကြိမ်လျှင် စာမျက်နှာ ၁၅ မျက်နှာ (အများဆုံး ၃၀) ရွေးနိုင်ပါသည်။</li>
+      <li><b>နောက်တစ်ဆင့် - စာဖတ်ရန်</b> ကို နှိပ်ပါ။ ပြီးလျှင် ဝါရောင် အတွဲများကို စစ်ပြီး စာမျက်နှာတိုင်းကို <b>Checked</b> လုပ်ပါ။</li>
+      <li>Word, PDF သို့မဟုတ် Text ကို ဒေါင်းပါ။</li>
+    </ol>
+    <div class="note"><b>စာအုပ်များ သိမ်းသည့်နေရာ -</b> မိမိ ကွန်ပျူတာရှိ <code>Documents/Nissaya Editor</code> folder ထဲတွင်သာ ရှိပါသည်။ Cloud သို့ မပို့ပါ။ ဤ folder ကို USB သို့မဟုတ် Drive ထဲ မကြာခဏ ကူးထားပါ။</div>
+    <div class="note"><b>Internet -</b> စာမျက်နှာ ဖတ်သည့်အဆင့် (OCR) တွင်သာ လိုပါသည်။ ပြင်ခြင်း၊ စစ်ခြင်း၊ ဒေါင်းခြင်းတို့ကို internet မရှိဘဲ လုပ်နိုင်ပါသည်။</div>
+
+    <h2>ကိုယ်ရေးအချက်အလက်</h2>
+    <p>App သည် Google Drive ကို စာမျက်နှာ ဖတ်ရန်အတွက်သာ အသုံးပြုပါသည်။ အသေးစိတ်ကို <a href="privacy.html">ကိုယ်ရေးအချက်အလက် မူဝါဒ</a> တွင် ဖတ်ပါ။</p>
+
+    <h2>အသုံးပြုထားသော open-source အစိတ်အပိုင်းများ</h2>
+    <ul>
+      <li><a href="https://github.com/PhilixTheExplorer/lexo">Lexo</a> (AGPL-3.0) - Google Docs OCR ဖြင့် စာဖတ်ရန်။ App အတွင်း သီးခြား program အဖြစ် မပြောင်းလဲဘဲ ပါဝင်ပါသည်။</li>
+      <li><a href="https://github.com/pymupdf/PyMuPDF">PyMuPDF</a> (AGPL-3.0) - Lexo ၏ အစိတ်အပိုင်း။</li>
+      <li><a href="https://fonts.google.com/noto/specimen/Noto+Sans+Myanmar">Noto Sans Myanmar</a> (SIL Open Font License 1.1)</li>
+      <li>ပါဠိ စာလုံးပေါင်း စစ်ဆေးရန် - <a href="https://tipitaka.org">Vipassana Research Institute (VRI)</a> ၏ ချဋ္ဌသင်္ဂါယနာ တိပိဋက စာများ (စီးပွားရေးမဟုတ်သော အသုံးပြုမှု)။</li>
+    </ul>
+  </section>
+
+  <!-- ================= English ================= -->
+  <section lang="en">
+    <h1>Nissaya Editor</h1>
+    <p class="lead">A desktop app that reads photos or PDFs of Pāli–Myanmar nissaya books, splits the text into Pāli–Myanmar pairs, lets you check them, and saves the result as Word, PDF or text.</p>
+
+    <h2>Download</h2>
+    <div class="downloads">
+      <div class="card">
+        <h3>🪟 Windows</h3>
+        <p class="muted">Windows 10 / 11 (64-bit)<br>File: <code>Nissaya Editor Setup.exe</code></p>
+        <a class="btn" href="https://github.com/ohnmarnyunt/nissaya-editor/releases/latest">⬇ Download for Windows</a>
+      </div>
+      <div class="card">
+        <h3>🍎 Mac (Apple chip – M1, M2, M3, M4)</h3>
+        <p class="muted">File: <code>Nissaya Editor (mac-apple).dmg</code></p>
+        <a class="btn" href="https://github.com/ohnmarnyunt/nissaya-editor/releases/latest">⬇ Download for Mac</a>
+      </div>
+    </div>
+    <p class="muted">The button opens the latest version. Under <b>Assets</b>, click the file for your computer.</p>
+
+    <h2>How to install</h2>
+    <h3>Windows</h3>
+    <ol>
+      <li>Double-click <code>Nissaya Editor Setup.exe</code>.</li>
+      <li>If “Windows protected your PC” appears, click <b>More info</b> → <b>Run anyway</b>.</li>
+      <li>Click <b>Next</b> → <b>Install</b> → <b>Finish</b>. Nissaya Editor appears on the desktop.</li>
+    </ol>
+    <h3>Mac</h3>
+    <ol>
+      <li>Open the <code>.dmg</code> file and drag <b>Nissaya Editor</b> into <b>Applications</b>.</li>
+      <li>Open Nissaya Editor from Applications. If it says it “cannot be opened” or “could not verify”, click <b>Done</b>.</li>
+      <li>Open <b>System Settings</b> → <b>Privacy &amp; Security</b> and scroll down. Next to “Nissaya Editor was blocked”, click <b>Open Anyway</b> and type your Mac password.</li>
+      <li>If a Keychain box asks for a password, type your Mac password and click <b>Always Allow</b>.</li>
+    </ol>
+
+    <h2>First use</h2>
+    <ol>
+      <li>Open the app and click <b>Sign in with Google</b> on the Home page. In the browser, choose your Google account and click <b>Allow</b>. (Once per computer.)</li>
+      <li>Make a <b>New book</b> and add photos or a PDF. For a PDF you choose 15 pages at a time (at most 30).</li>
+      <li>Click <b>Next: Read the pages</b>. Then check the yellow pairs and mark every page <b>Checked</b>.</li>
+      <li>Download Word, PDF or Text.</li>
+    </ol>
+    <div class="note"><b>Where your books are kept:</b> only on your own computer, in the <code>Documents/Nissaya Editor</code> folder. Nothing is sent to the cloud. Copy this folder to a USB stick or Drive from time to time as a backup.</div>
+    <div class="note"><b>Internet:</b> needed only while pages are being read (OCR). Editing, checking and downloading work offline.</div>
+
+    <h2>Privacy</h2>
+    <p>The app uses Google Drive only to read the pages. See the <a href="privacy.html">privacy policy</a> for details.</p>
+
+    <h2>Open-source components</h2>
+    <ul>
+      <li><a href="https://github.com/PhilixTheExplorer/lexo">Lexo</a> (AGPL-3.0) – reads pages with Google Docs OCR. Included unchanged, as a separate program inside the app.</li>
+      <li><a href="https://github.com/pymupdf/PyMuPDF">PyMuPDF</a> (AGPL-3.0) – part of Lexo.</li>
+      <li><a href="https://fonts.google.com/noto/specimen/Noto+Sans+Myanmar">Noto Sans Myanmar</a> (SIL Open Font License 1.1)</li>
+      <li>Pāli spelling check: Chaṭṭha Saṅgāyana Tipiṭaka text by the <a href="https://tipitaka.org">Vipassana Research Institute (VRI)</a>, used for non-commercial purposes.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <div class="bar">
+    <a href="./"><span lang="my">ပင်မစာမျက်နှာ</span><span lang="en">Home</span></a>
+    <a href="privacy.html"><span lang="my">ကိုယ်ရေးအချက်အလက် မူဝါဒ</span><span lang="en">Privacy policy</span></a>
+    <span>© 2026 Ohnmar Nyunt</span>
+  </div>
+</footer>
+<script src="lang.js"></script>
+</body>
+</html>
